@@ -104,3 +104,9 @@ export default class View {
     this._parentElement.insertAdjacentHTML('afterbegin', markup);
   }
 }
+
+const logoClick = function(e){
+  document.querySelector('.header__logo').addEventListener(click, {
+    
+  })
+};
